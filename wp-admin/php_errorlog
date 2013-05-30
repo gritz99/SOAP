@@ -1,0 +1,18 @@
+[19-Nov-2012 15:49:46] PHP Warning:  strstr() [<a href='function.strstr'>function.strstr</a>]: Empty delimiter in /home/openisla/public_html/osw3go/2013/wp-content/plugins/events-manager/em-posts.php on line 250
+[19-Nov-2012 15:50:01] PHP Warning:  strstr() [<a href='function.strstr'>function.strstr</a>]: Empty delimiter in /home/openisla/public_html/osw3go/2013/wp-content/plugins/events-manager/em-posts.php on line 250
+[21-Nov-2012 14:24:30] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_plugin_slickquiz' at line 1 for query show tables like wp_plugin_slickquiz made by activate_plugin, do_action('activate_slickquiz/slickquiz.php'), call_user_func_array, SlickQuiz->activate, SlickQuiz->create_quiz_table
+[21-Nov-2012 14:47:50] WordPress database error Duplicate column name 'user_id' for query ALTER TABLE `wp_wti_like_post` ADD `user_id` INT NOT NULL DEFAULT '0' made by activate_plugin, do_action('activate_wti-like-post/wti_like_post.php'), call_user_func_array, SetOptionsWtiLikePost
+[21-Nov-2012 15:18:31] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TYPE=MyISAM AUTO_INCREMENT=1' at line 7 for query CREATE TABLE IF NOT EXISTS wp_bbplike (
+            id int(11) NOT NULL AUTO_INCREMENT,
+            post_id bigint(20) NOT NULL,
+            user_id bigint(20) NOT NULL,
+            time datetime DEFAULT '0000-00-00 00:00:00' NOT NULL,
+            PRIMARY KEY (id)
+            ) TYPE=MyISAM AUTO_INCREMENT=1 made by activate_plugin, do_action('activate_bbpress-like-button/bbpress-like.php'), call_user_func_array, bbpress_like::plugin_activation, dbDelta
+[21-Nov-2012 16:52:55] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'recommend 'wp_irecommendthis_votes'' at line 1 for query show tables recommend 'wp_irecommendthis_votes' made by activate_plugin, do_action('activate_i-recommend-this/dot-irecommendthis.php'), call_user_func_array, DOT_IRecommendThis->activate
+[21-Nov-2012 17:06:02] WordPress database error Table 'openisla_osw13.wp_gdsr_multis_data' doesn't exist for query SHOW COLUMNS FROM wp_gdsr_multis_data made by activate_plugin, include_once('/plugins/gd-star-rating/gd-star-rating.php'), GDStarRating->GDStarRating, GDStarRating->install_plugin, gdDBInstallGDSR->delete_columns
+[28-Nov-2012 19:18:28] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/openisla/public_html/osw3go/2013/wp-content/themes/custom-community/admin/config.php on line 322
+[28-Nov-2012 19:22:01] PHP Parse error:  syntax error, unexpected ')' in /home/openisla/public_html/osw3go/2013/wp-content/themes/custom-community/admin/config.php on line 401
+[28-Nov-2012 19:23:59] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/openisla/public_html/osw3go/2013/wp-content/themes/custom-community/admin/library.php on line 173
+[29-Nov-2012 14:41:27] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/openisla/public_html/osw3go/2013/wp-content/themes/custom-community/admin/library.php on line 173
+[29-Nov-2012 14:54:16] PHP Fatal error:  Cannot use object of type stdClass as array in /home/openisla/public_html/osw3go/2013/wp-content/themes/custom-community/admin/config.php on line 19

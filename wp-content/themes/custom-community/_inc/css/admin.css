@@ -1,0 +1,32 @@
+/* 
+Styles for admin part
+*/
+
+#config-tabs .text_option_teaxarea {
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+#config-tabs option-inputs .cc_image_preview{
+    max-width: 100px
+}
+.wrap p.additional_info{
+    margin-bottom:20px; 
+    color:#000;
+}
+.wrap p.additional_info .themekraft-link{
+    color:#abc214;
+}
+.wrap .full-version-link{
+    color:#ff9900;
+}
+form .export-button{
+    margin-left:20px;
+}   
+
+/* Rate for us notice */
+.dismiss-activation-message{
+    color: red;
+    float: right;
+    padding-right:10px;
+}
